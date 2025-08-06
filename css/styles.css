@@ -381,12 +381,13 @@ border-top: none;
 
 .bottom-section {
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 132px;
 }
 
 footer .container {
     display: flex;
     align-items: baseline;
-    padding-top: 100px;
 }
 
 .logo-container {
@@ -411,7 +412,6 @@ footer .container {
 
 .socials-links-container {
     display: block;
-    margin-bottom: 132px;
 }
 
 .socials-links-container .footer-text {
