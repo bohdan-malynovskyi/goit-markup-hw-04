@@ -78,8 +78,12 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 }
 
 .link {
-    color: #404bbf;
+    color: #2e2f42;
 }
+
+.current {
+        color: #404bbf;
+    }
 
 .link:focus,
 .link:hover {
@@ -135,6 +139,7 @@ color: #434455;
     padding-bottom: 188px;
     padding-left: auto;
     padding-right: auto;
+    margin: 0 auto;
     text-align: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)),
@@ -324,16 +329,17 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+.examples-list-item:hover .portfolio-text {
+    transform: translateY(0);
+}
+
 .portfolio-container {
     position: relative;
     justify-content: center;
     align-items: center;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     overflow: hidden;
-}
-
-.portfolio-container:hover .portfolio-text{
-transform: translateY(0);
 }
 
 .portfolio-text {
@@ -389,7 +395,9 @@ footer .container {
     width: 264px;
     height: 112px;
     margin-right: 120px;
+    margin-bottom: 100px;
 }
+
 .bottom-section .logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -406,6 +414,7 @@ footer .container {
 
 .socials-links-container {
     display: block;
+    margin-bottom: 132px;
 }
 
 .socials-links-container .footer-text {
